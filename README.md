@@ -5,7 +5,7 @@
 ## Установка:
 1. клонируйте репозиторий через ssh 
 ```
-git@github.com:sOnAres23/Sky_pro_OOP.git
+git@github.com:sOnAres23/Project_HH_vacancies.git
 ```
 2. устанавливайте зависимости из: 
 ```
