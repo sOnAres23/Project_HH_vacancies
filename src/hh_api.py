@@ -5,11 +5,11 @@ import requests
 
 from src.base_hh_api import BaseHeadHunterAPI
 
-"""Создаем логгер для логирования методов и записываем логи в директорию logs"""
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s: %(name)s %(funcName)s - %(levelname)s - %(message)s',
-                    filename='../logs/hh_api.log',  # Запись логов в файл
-                    filemode='w')  # Перезапись файла при каждом запуске
+# """Создаем логгер для логирования методов и записываем логи в директорию logs"""
+# logging.basicConfig(level=logging.DEBUG,
+#                     format='%(asctime)s: %(name)s %(funcName)s - %(levelname)s - %(message)s',
+#                     filename='../logs/hh_api.log',  # Запись логов в файл
+#                     filemode='w')  # Перезапись файла при каждом запуске
 logger = logging.getLogger("hh_api.py")
 
 
@@ -26,9 +26,10 @@ class HeadHunterAPI(BaseHeadHunterAPI):
         self.vacancies = []
         self.filename = "../data/for_work_with.json"
 
-    def get_vacancies(self, keyword):
-        """Метод получающий информацию по заданной вакансии, в противном случае выводит все вакансии"""
+    def get_vacancies(self, keyword=None, page=0):
+        """Метод, получающий информацию по заданной вакансии, в противном случае выводит все вакансии"""
         self.__params['text'] = keyword
+        self.__params['page'] = page - 1
         while self.__params.get('page') != 20:
             try:
                 logger.info("Делаем запрос...")
@@ -44,9 +45,9 @@ class HeadHunterAPI(BaseHeadHunterAPI):
                 return self.vacancies
 
 
-hh_api = HeadHunterAPI()
-hh_vacancies = hh_api.get_vacancies(keyword="Python")
-
-with open("../data/for_work_with.json", 'w', encoding='utf-8') as file:
-    logger.info("Записываем данные в JSON файл, для дальнейшей работы")
-    json.dump(hh_vacancies, file, ensure_ascii=False, indent=4)
+# hh_api = HeadHunterAPI()
+# hh_vacancies = hh_api.get_vacancies(keyword="Python")
+#
+# with open("../data/for_work_with.json", 'w', encoding='utf-8') as file:
+#     logger.info("Записываем данные в JSON файл, для дальнейшей работы")
+#     json.dump(hh_vacancies, file, ensure_ascii=False, indent=4)
