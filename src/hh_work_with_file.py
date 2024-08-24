@@ -70,7 +70,8 @@ class JSONSaver(BaseWorkWithFile):
                 }
                 list_vacancies.append(vacancies)
 
-        with open(f"../data/{self._filename}.json", "w", encoding="cp1251", errors='replace') as f:
+        with open(fr"D:\PyCharm\Projects\Project_HH_vacancies\data\{self._filename}.json", "w",
+                  encoding="cp1251", errors='replace') as f:
             json.dump(list_vacancies, f, ensure_ascii=False, indent=4)
             logger.info("Вакансии в файл успешно добавлены")
 

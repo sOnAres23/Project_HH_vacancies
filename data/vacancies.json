@@ -65,15 +65,6 @@
         "link": "https://hh.ru/vacancy/105338726"
     },
     {
-        "name": "Data Scientist",
-        "city": "Москва",
-        "employer": "Вкусно — и точка",
-        "salary": "Зарплата не указана",
-        "description": "...стеком: python, catboost\\lightgbm, sklearn, pandas, numpy. Навыки написания оптимальных sql запросов (оконные функции). Умение писать хороший код на Python. ",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/89237775"
-    },
-    {
         "name": "Медиа-аналитик",
         "city": "Москва",
         "employer": "РБК",
@@ -81,6 +72,15 @@
         "description": "Уверенный пользователь Exсel, Power Point. (Знание SQL и Python как преимущество). Умение работать с большим объёмом данных, знание основ статистики...",
         "experience": "Нет опыта",
         "link": "https://hh.ru/vacancy/102432305"
+    },
+    {
+        "name": "Data Scientist",
+        "city": "Москва",
+        "employer": "Вкусно — и точка",
+        "salary": "Зарплата не указана",
+        "description": "...стеком: python, catboost\\lightgbm, sklearn, pandas, numpy. Навыки написания оптимальных sql запросов (оконные функции). Умение писать хороший код на Python. ",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/89237775"
     },
     {
         "name": "QA Engineer",
@@ -92,13 +92,13 @@
         "link": "https://hh.ru/vacancy/106001324"
     },
     {
-        "name": "Бэкенд разработчик (Python)",
-        "city": "Москва",
-        "employer": "Вкусно — и точка",
+        "name": "IT Интерн",
+        "city": "Алматы",
+        "employer": "Народный банк Казахстана",
         "salary": "Зарплата не указана",
-        "description": "Высшее образование. Отличные знания технологий: Python, Flask, FastAPI, PostgreSQL, SQLAlchemy, Linux, Git, Nginx, Kafka, Elasticsearch, Jenkins, Docker, Redis. ",
-        "experience": "От 3 до 6 лет",
-        "link": "https://hh.ru/vacancy/96425920"
+        "description": "Знание SQL, опыт работы с реляционными базами данных (Greenplum, Oracle, PostgreSQL). Опыт работы с ETL процессами (Informatica PC, Informatica DEI...",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/106152087"
     },
     {
         "name": "Стажёр-разработчик Python / Менти",
@@ -110,13 +110,13 @@
         "link": "https://hh.ru/vacancy/106116006"
     },
     {
-        "name": "IT Интерн",
-        "city": "Алматы",
-        "employer": "Народный банк Казахстана",
+        "name": "Бэкенд разработчик (Python)",
+        "city": "Москва",
+        "employer": "Вкусно — и точка",
         "salary": "Зарплата не указана",
-        "description": "Знание SQL, опыт работы с реляционными базами данных (Greenplum, Oracle, PostgreSQL). Опыт работы с ETL процессами (Informatica PC, Informatica DEI...",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/106152087"
+        "description": "Высшее образование. Отличные знания технологий: Python, Flask, FastAPI, PostgreSQL, SQLAlchemy, Linux, Git, Nginx, Kafka, Elasticsearch, Jenkins, Docker, Redis. ",
+        "experience": "От 3 до 6 лет",
+        "link": "https://hh.ru/vacancy/96425920"
     },
     {
         "name": "Junior Python Developer",
@@ -127,15 +127,6 @@
         "description": "Базовые знания Python версии 3.7-3.11. - Базовые знания Django и Django REST framework (умение написать Middleware а также...",
         "experience": "Нет опыта",
         "link": "https://hh.ru/vacancy/104857154"
-    },
-    {
-        "name": "Стажер-аналитик в HR / Data Analyst Intern",
-        "city": "Москва",
-        "employer": "Okkam",
-        "salary": "Зарплата не указана",
-        "description": "Умение структурировать информацию. Разбираешься в пакете MS Office, готовность работать с большими массивами данных.",
-        "experience": "Нет опыта",
-        "link": "https://hh.ru/vacancy/105266307"
     },
     {
         "name": "Frontend developer",
@@ -157,15 +148,6 @@
         "link": "https://hh.ru/vacancy/105394925"
     },
     {
-        "name": "Аналитик",
-        "city": "Москва",
-        "employer": "МТС Финтех",
-        "salary": "Зарплата не указана",
-        "description": "Умение работать с большими объемами данных. Навыки программирования на Python. Аналитический склад ума, умение работать с цифрами и уметь извлекать...",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/105231445"
-    },
-    {
         "name": "QA Engineer",
         "city": "Москва",
         "employer": "President Service Consult",
@@ -175,14 +157,22 @@
         "link": "https://hh.ru/vacancy/106243131"
     },
     {
-        "name": "Младший (junior) программист Python",
-        "city": "Воронеж",
-        "employer": "Интеллектуальные системы",
-        "salary_from": 37050,
-        "salary_to": 78750,
-        "description": "Понимание принципа (или опыт) работы Server Side Events и их реализации в языке Python. Понимание принципа (или опыт) работы Docker...",
+        "name": "Стажер-аналитик в HR / Data Analyst Intern",
+        "city": "Москва",
+        "employer": "Okkam",
+        "salary": "Зарплата не указана",
+        "description": "Умение структурировать информацию. Разбираешься в пакете MS Office, готовность работать с большими массивами данных.",
         "experience": "Нет опыта",
-        "link": "https://hh.ru/vacancy/106174538"
+        "link": "https://hh.ru/vacancy/105266307"
+    },
+    {
+        "name": "Аналитик",
+        "city": "Москва",
+        "employer": "МТС Финтех",
+        "salary": "Зарплата не указана",
+        "description": "Умение работать с большими объемами данных. Навыки программирования на Python. Аналитический склад ума, умение работать с цифрами и уметь извлекать...",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/105231445"
     },
     {
         "name": "BI разработчик",
@@ -194,6 +184,15 @@
         "link": "https://hh.ru/vacancy/90450953"
     },
     {
+        "name": "Python developer (стажер)",
+        "city": "Москва",
+        "employer": "МегаФон",
+        "salary": "Зарплата не указана",
+        "description": "Будет плюсом: Понимание принципов разработки ML-моделей. Понимание принципов асинхронного программирования в python. Понимание Docker. Опыт работы с Linux. ",
+        "experience": "Нет опыта",
+        "link": "https://hh.ru/vacancy/105924400"
+    },
+    {
         "name": "Стажер продуктовый аналитик",
         "city": "Москва",
         "employer": "МТС",
@@ -202,6 +201,16 @@
         "description": "Знаешь, как аргументировать свою позицию, и слышишь мнение второй стороны. Интересуешься мобильной связью и технологиями. Продвинутое знание SQL, (Python как...",
         "experience": "Нет опыта",
         "link": "https://hh.ru/vacancy/103647668"
+    },
+    {
+        "name": "Младший (junior) программист Python",
+        "city": "Воронеж",
+        "employer": "Интеллектуальные системы",
+        "salary_from": 37050,
+        "salary_to": 78750,
+        "description": "Понимание принципа (или опыт) работы Server Side Events и их реализации в языке Python. Понимание принципа (или опыт) работы Docker...",
+        "experience": "Нет опыта",
+        "link": "https://hh.ru/vacancy/106174538"
     },
     {
         "name": "Тестировщик",
@@ -233,24 +242,6 @@
         "link": "https://hh.ru/vacancy/105515848"
     },
     {
-        "name": "Младший антифрод-аналитик",
-        "city": "Москва",
-        "employer": "Купер",
-        "salary": "Зарплата не указана",
-        "description": "Отлично владеешь Python, работаешь с циклами, условиями, классами ООП, а также знаком со стеком технологий: Kafka, Jupyter, AirFLow, Apache Spark...",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/103285398"
-    },
-    {
-        "name": "Python developer (стажер)",
-        "city": "Москва",
-        "employer": "МегаФон",
-        "salary": "Зарплата не указана",
-        "description": "Будет плюсом: Понимание принципов разработки ML-моделей. Понимание принципов асинхронного программирования в python. Понимание Docker. Опыт работы с Linux. ",
-        "experience": "Нет опыта",
-        "link": "https://hh.ru/vacancy/105924400"
-    },
-    {
         "name": "QA/Тестировщик",
         "city": "Москва",
         "employer": "PRO32",
@@ -258,6 +249,15 @@
         "description": "Опыт от 1 года в ручном тестировании или QA. Знание тестирования и умение применять на практике. Готовность писать документацию и...",
         "experience": "От 1 года до 3 лет",
         "link": "https://hh.ru/vacancy/106220113"
+    },
+    {
+        "name": "Младший антифрод-аналитик",
+        "city": "Москва",
+        "employer": "Купер",
+        "salary": "Зарплата не указана",
+        "description": "Отлично владеешь Python, работаешь с циклами, условиями, классами ООП, а также знаком со стеком технологий: Kafka, Jupyter, AirFLow, Apache Spark...",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/103285398"
     },
     {
         "name": "Разработчик Python Junior",
@@ -269,6 +269,24 @@
         "link": "https://hh.ru/vacancy/105931326"
     },
     {
+        "name": "Backend разработчик (Python)",
+        "city": "Иркутск",
+        "employer": "ИОТ",
+        "salary": "Зарплата не указана",
+        "description": "Уверенные знания python3.6 (желателен опыт коммерческой разработки от 2 лет). Опыт работы с Flask/Django. Опыт работы с...",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/104227650"
+    },
+    {
+        "name": "Junior Data Scientist",
+        "city": "Санкт-Петербург",
+        "employer": "Совкомбанк Страхование",
+        "salary": "Зарплата не указана",
+        "description": "Знание Python (pandas, numpy, sklearn, seaborn, matploltlib, plotly). Знание SQL (умение создавать таблицы и выводить данные). Высшее образование (математическое/информационные...",
+        "experience": "Нет опыта",
+        "link": "https://hh.ru/vacancy/106238438"
+    },
+    {
         "name": "Frontend Developer Team Bravo",
         "city": "Тбилиси",
         "employer": "TradingView",
@@ -278,23 +296,13 @@
         "link": "https://hh.ru/vacancy/106137990"
     },
     {
-        "name": "Стажёр-разработчик",
-        "city": "Омск",
-        "employer": "Igor Polyakov Consulting",
-        "salary_from": 25000,
-        "salary_to": 50000,
-        "description": "Знание Python, C++. Знание JavaScript, React, Vue. Знание паттернов проектирования. Умение писать тесты. Умение работать в команде. Исполнительность.",
-        "experience": "Нет опыта",
-        "link": "https://hh.ru/vacancy/105990880"
-    },
-    {
-        "name": "Backend разработчик (Python)",
-        "city": "Иркутск",
-        "employer": "ИОТ",
+        "name": "Python-разработчик (Django)",
+        "city": "Москва",
+        "employer": "AERODISK",
         "salary": "Зарплата не указана",
-        "description": "Уверенные знания python3.6 (желателен опыт коммерческой разработки от 2 лет). Опыт работы с Flask/Django. Опыт работы с...",
+        "description": "Опыт работы с Django и Django REST Framework. Знание языка программирования Python и понимание Pythonic way. Опыт работы с системами...",
         "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/104227650"
+        "link": "https://hh.ru/vacancy/106242609"
     },
     {
         "name": "Младший backend-разработчик",
@@ -326,22 +334,23 @@
         "link": "https://hh.ru/vacancy/106242723"
     },
     {
-        "name": "Junior Data Scientist",
-        "city": "Санкт-Петербург",
-        "employer": "Совкомбанк Страхование",
-        "salary": "Зарплата не указана",
-        "description": "Знание Python (pandas, numpy, sklearn, seaborn, matploltlib, plotly). Знание SQL (умение создавать таблицы и выводить данные). Высшее образование (математическое/информационные...",
+        "name": "Стажёр-разработчик",
+        "city": "Омск",
+        "employer": "Igor Polyakov Consulting",
+        "salary_from": 25000,
+        "salary_to": 50000,
+        "description": "Знание Python, C++. Знание JavaScript, React, Vue. Знание паттернов проектирования. Умение писать тесты. Умение работать в команде. Исполнительность.",
         "experience": "Нет опыта",
-        "link": "https://hh.ru/vacancy/106238438"
+        "link": "https://hh.ru/vacancy/105990880"
     },
     {
-        "name": "Python-разработчик (Django)",
-        "city": "Москва",
-        "employer": "AERODISK",
+        "name": "Программист",
+        "city": "Кызылорда",
+        "employer": "Qyzylorda STEM School",
         "salary": "Зарплата не указана",
-        "description": "Опыт работы с Django и Django REST Framework. Знание языка программирования Python и понимание Pythonic way. Опыт работы с системами...",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/106242609"
+        "description": "Оценка знаний и навыков учащихся, подготовка отчетности по результатам обучения.",
+        "experience": "Нет опыта",
+        "link": "https://hh.ru/vacancy/106035460"
     },
     {
         "name": "Разработчик Python",
@@ -351,34 +360,6 @@
         "description": "Глубокое понимание основ языка Python и его стандартной библиотеки. Опыт работы с библиотеками для обработки документов. Умение работать с библиотеками...",
         "experience": "От 1 года до 3 лет",
         "link": "https://hh.ru/vacancy/106093526"
-    },
-    {
-        "name": "Junior Python / Go Developer (Microservices)",
-        "city": "Нижний Новгород",
-        "employer": "Nexign (АО Нэксайн)",
-        "salary": "Зарплата не указана",
-        "description": "Опыт написания приложений на Python или Go, с использованием основных фреймворков (Python3, Fastapi, SqlAlchemy). Способность читать и вносить несложные...",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/106235778"
-    },
-    {
-        "name": "Python-разработчик",
-        "city": "Москва",
-        "employer": "Миссия 32",
-        "salary_from": 100000,
-        "salary_to": 0,
-        "description": "Не указано",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/106086203"
-    },
-    {
-        "name": "Аналитик продуктов (junior)",
-        "city": "Санкт-Петербург",
-        "employer": "Газпром нефть",
-        "salary": "Зарплата не указана",
-        "description": "Знаком с SQL на уровне запросов к базе. Знаешь языки R и/или Python для анализа данных. Опыт работы продуктовым...",
-        "experience": "Нет опыта",
-        "link": "https://hh.ru/vacancy/103524000"
     },
     {
         "name": "Junior Golang Developer",
@@ -401,14 +382,23 @@
         "link": "https://hh.ru/vacancy/106195934"
     },
     {
-        "name": "Junior Python разработчик",
-        "city": "Ярославль",
-        "employer": "Точка Зрения",
-        "salary_from": 60000,
-        "salary_to": 100000,
-        "description": "Профильное высшее образование. Знание Python3. Желание развиваться в сфере AI. Желательно/будет плюсом: Опыт работы над коммерческим или pet...",
+        "name": "Junior Python / Go Developer (Microservices)",
+        "city": "Нижний Новгород",
+        "employer": "Nexign (АО Нэксайн)",
+        "salary": "Зарплата не указана",
+        "description": "Опыт написания приложений на Python или Go, с использованием основных фреймворков (Python3, Fastapi, SqlAlchemy). Способность читать и вносить несложные...",
         "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/106138918"
+        "link": "https://hh.ru/vacancy/106235778"
+    },
+    {
+        "name": "Python-разработчик",
+        "city": "Москва",
+        "employer": "Миссия 32",
+        "salary_from": 100000,
+        "salary_to": 0,
+        "description": "Не указано",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/106086203"
     },
     {
         "name": "Младший аналитик",
@@ -421,53 +411,6 @@
         "link": "https://hh.ru/vacancy/105377315"
     },
     {
-        "name": "Продуктовый аналитик (Клиентский опыт)",
-        "city": "Москва",
-        "employer": "БУРГЕР КИНГ РОССИЯ",
-        "salary": "Зарплата не указана",
-        "description": "Большим плюсом будет знание эконометрики, Python. Общий опыт в аналитике 3-4 года (желательно минимум 1-2 года клиентской аналитики).",
-        "experience": "От 3 до 6 лет",
-        "link": "https://hh.ru/vacancy/95264337"
-    },
-    {
-        "name": "Программист",
-        "city": "Кызылорда",
-        "employer": "Qyzylorda STEM School",
-        "salary": "Зарплата не указана",
-        "description": "Оценка знаний и навыков учащихся, подготовка отчетности по результатам обучения.",
-        "experience": "Нет опыта",
-        "link": "https://hh.ru/vacancy/106035460"
-    },
-    {
-        "name": "Разработчик Embedded Linux",
-        "city": "Москва",
-        "employer": "МАШ ЮНИТ",
-        "salary_from": 250000,
-        "salary_to": 0,
-        "description": "отличное понимание Embedded Linux (user space и kernel space). - знание скриптовых языков (shell, python), опыт написания скриптов в Linux. - ",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/104971558"
-    },
-    {
-        "name": "Junior Data Engineer",
-        "city": "Москва",
-        "employer": "«UZUM TECHNOLOGIES».",
-        "salary": "Зарплата не указана",
-        "description": "Опыт работы с инструментами для обработки больших данных. Знание языка Python и умение применять его на практике. Способность работать в...",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/105484275"
-    },
-    {
-        "name": "Junior Python Developer",
-        "city": "Москва",
-        "employer": "FOXY WAY",
-        "salary_from": 70000,
-        "salary_to": 100000,
-        "description": "Есть коммерческий опыт разработки около 1 года. У тебя уровень знания python выше начального/средний. Есть опыт с pytest (слышал...",
-        "experience": "Нет опыта",
-        "link": "https://hh.ru/vacancy/106080127"
-    },
-    {
         "name": "Инженер-программист",
         "city": "Астана",
         "employer": "Национальные информационные технологии",
@@ -477,14 +420,23 @@
         "link": "https://hh.ru/vacancy/106262464"
     },
     {
-        "name": "Backend Python разработчик",
-        "city": "Астана",
-        "employer": "Частная компания HalalGuide Ltd.",
-        "salary_from": 700000,
-        "salary_to": 1000000,
-        "description": "Опыт работы Python Backend разработчиком от 3 лет. Отличное знание фреймворков Django. Опыт работы с реляционными и нереляционными базами данных. ",
+        "name": "Junior Python разработчик",
+        "city": "Ярославль",
+        "employer": "Точка Зрения",
+        "salary_from": 60000,
+        "salary_to": 100000,
+        "description": "Профильное высшее образование. Знание Python3. Желание развиваться в сфере AI. Желательно/будет плюсом: Опыт работы над коммерческим или pet...",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/106138918"
+    },
+    {
+        "name": "Продуктовый аналитик (Клиентский опыт)",
+        "city": "Москва",
+        "employer": "БУРГЕР КИНГ РОССИЯ",
+        "salary": "Зарплата не указана",
+        "description": "Большим плюсом будет знание эконометрики, Python. Общий опыт в аналитике 3-4 года (желательно минимум 1-2 года клиентской аналитики).",
         "experience": "От 3 до 6 лет",
-        "link": "https://hh.ru/vacancy/106235207"
+        "link": "https://hh.ru/vacancy/95264337"
     },
     {
         "name": "Python разработчик",
@@ -494,6 +446,15 @@
         "description": "Опыт разработки на Python ну уровне middle+. Опыт работы с базами данных (SQL). Навыки работы в удаленной команде. ",
         "experience": "От 3 до 6 лет",
         "link": "https://hh.ru/vacancy/104737906"
+    },
+    {
+        "name": "Аналитик продуктов (junior)",
+        "city": "Санкт-Петербург",
+        "employer": "Газпром нефть",
+        "salary": "Зарплата не указана",
+        "description": "Знаком с SQL на уровне запросов к базе. Знаешь языки R и/или Python для анализа данных. Опыт работы продуктовым...",
+        "experience": "Нет опыта",
+        "link": "https://hh.ru/vacancy/103524000"
     },
     {
         "name": "Junior web developer",
@@ -506,14 +467,32 @@
         "link": "https://hh.ru/vacancy/105906874"
     },
     {
-        "name": "Ведущий системный администратор (Windows, Linux, ESXi) в LegalTech",
+        "name": "Junior Python Developer",
         "city": "Москва",
-        "employer": "Лао Оливарес Кристина Вячеславовна",
-        "salary_from": 300000,
-        "salary_to": 400000,
-        "description": "Опыт работы с облачными платформами. Знание скриптовых языков (PowerShell, Bash, Python) для автоматизации задач. Опыт работы с системами мониторинга (Zabbix...",
-        "experience": "Более 6 лет",
-        "link": "https://hh.ru/vacancy/106256417"
+        "employer": "FOXY WAY",
+        "salary_from": 70000,
+        "salary_to": 100000,
+        "description": "Есть коммерческий опыт разработки около 1 года. У тебя уровень знания python выше начального/средний. Есть опыт с pytest (слышал...",
+        "experience": "Нет опыта",
+        "link": "https://hh.ru/vacancy/106080127"
+    },
+    {
+        "name": "Junior Data Engineer",
+        "city": "Москва",
+        "employer": "«UZUM TECHNOLOGIES».",
+        "salary": "Зарплата не указана",
+        "description": "Опыт работы с инструментами для обработки больших данных. Знание языка Python и умение применять его на практике. Способность работать в...",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/105484275"
+    },
+    {
+        "name": "Data Analyst",
+        "city": "Минск",
+        "employer": "Kufar",
+        "salary": "Зарплата не указана",
+        "description": "Владеешь SQL на высоком уровне, знание Python будет большим плюсом. Хорошо умеешь работать с BI-инструментами (мы используем Tableau). ",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/105626852"
     },
     {
         "name": "Разработчик банковского ПО (junior)",
@@ -535,41 +514,14 @@
         "link": "https://hh.ru/vacancy/105807829"
     },
     {
-        "name": "Data Analyst",
-        "city": "Минск",
-        "employer": "Kufar",
-        "salary": "Зарплата не указана",
-        "description": "Владеешь SQL на высоком уровне, знание Python будет большим плюсом. Хорошо умеешь работать с BI-инструментами (мы используем Tableau). ",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/105626852"
-    },
-    {
-        "name": "Администратор сайта",
+        "name": "Разработчик Embedded Linux",
         "city": "Москва",
-        "employer": "Гоудрон",
-        "salary_from": 150000,
+        "employer": "МАШ ЮНИТ",
+        "salary_from": 250000,
         "salary_to": 0,
-        "description": "Владеете Adobe Photoshop, Adobe Illustrator, Git, phpMyAdmin, Docker, Ubuntu Server, Jetbrains Phpstorm. Уверенный пользователь метрики и сопутствующих систем отслеживания. ",
+        "description": "отличное понимание Embedded Linux (user space и kernel space). - знание скриптовых языков (shell, python), опыт написания скриптов в Linux. - ",
         "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/106045032"
-    },
-    {
-        "name": "Python developer",
-        "city": "Москва",
-        "employer": "Kokoc Group",
-        "salary": "Зарплата не указана",
-        "description": "Будет плюсом: Опыт работы с многопоточностью и многопроцессорностью в Python. Опыт работы с Clickhouse или другими подобными нереляционными базами данных. ",
-        "experience": "От 3 до 6 лет",
-        "link": "https://hh.ru/vacancy/105782745"
-    },
-    {
-        "name": "Системный инженер Linux",
-        "city": "Москва",
-        "employer": "EFIX GROUP",
-        "salary": "Зарплата не указана",
-        "description": "Опыт работы с системами автоматизаций (Ansible/Terraform). Опыт работы с Docker. Навык написания сценариев на Bash, Python. Хорошее представление о...",
-        "experience": "От 3 до 6 лет",
-        "link": "https://hh.ru/vacancy/105144820"
+        "link": "https://hh.ru/vacancy/104971558"
     },
     {
         "name": "Backend-разработчик / Разработчик Python",
@@ -582,42 +534,23 @@
         "link": "https://hh.ru/vacancy/106002970"
     },
     {
-        "name": "Программист-разработчик Python",
+        "name": "Ведущий системный администратор (Windows, Linux, ESXi) в LegalTech",
         "city": "Москва",
-        "employer": "Гео Техно Сот",
-        "salary": "Зарплата не указана",
-        "description": "Высшее образование (желательно: Математика, Фундаментальные математика и механика, Прикладная математика). Опыт коммерческой разработки на Python от 2-х лет. ",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/105454763"
+        "employer": "Лао Оливарес Кристина Вячеславовна",
+        "salary_from": 300000,
+        "salary_to": 400000,
+        "description": "Опыт работы с облачными платформами. Знание скриптовых языков (PowerShell, Bash, Python) для автоматизации задач. Опыт работы с системами мониторинга (Zabbix...",
+        "experience": "Более 6 лет",
+        "link": "https://hh.ru/vacancy/106256417"
     },
     {
-        "name": "Middle Frontend Software Engineer (Брест)",
-        "city": "Брест",
-        "employer": "ВебДэд",
-        "salary": "Зарплата не указана",
-        "description": "Опыт работы с инструментами сборки и автоматизации, такими как Webpack или Gulp. Знание других языков программирования, таких как NodeJS, Python...",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/106267364"
-    },
-    {
-        "name": "Middle Back-end разработчик (Python, PostgreSQL, FastAPI)",
-        "city": "Ханты-Мансийск",
-        "employer": "АУ Югорский НИИ информационных технологий",
-        "salary_from": 80000,
-        "salary_to": 0,
-        "description": "Опыт работы с другими современными фреймворками Python будет преимуществом. Глубокое понимание Python и его экосистемы. Опыт работы с PostgreSQL и...",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/106275726"
-    },
-    {
-        "name": "Python разработчик (Junior+)",
+        "name": "Системный инженер Linux",
         "city": "Москва",
-        "employer": "Leads",
-        "salary_from": 70000,
-        "salary_to": 100000,
-        "description": "Опыт работы backend/fullstack Python разработчиком от 1 года. Знание. - ООП. - Python 3.7+. - SQL (PostgreSQL). - Linux (на уровне...",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/105043389"
+        "employer": "EFIX GROUP",
+        "salary": "Зарплата не указана",
+        "description": "Опыт работы с системами автоматизаций (Ansible/Terraform). Опыт работы с Docker. Навык написания сценариев на Bash, Python. Хорошее представление о...",
+        "experience": "От 3 до 6 лет",
+        "link": "https://hh.ru/vacancy/105144820"
     },
     {
         "name": "Стажер-разработчик",
@@ -639,32 +572,43 @@
         "link": "https://hh.ru/vacancy/106086061"
     },
     {
-        "name": "Специалист по интеллектуальному анализу данных (PD, LGD розничные риски)",
-        "city": "Москва",
-        "employer": "Альфа-Банк",
-        "salary": "Зарплата не указана",
-        "description": "Образование: высшее, специальность: прикладная математика и информатика, экономика (финансы/математические модели в финансах). Опыт работы по специальности: 1 - 3 года. ",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/102170653"
-    },
-    {
-        "name": "Прикладной администратор в Систему быстрых платежей",
-        "city": "Москва",
-        "employer": "Национальная система платежных карт",
-        "salary": "Зарплата не указана",
-        "description": "Обладать отличными знаниями по Linux, Docker, Ansible, Python и стеку мониторинга. Хорошо знать SQL и HTTP. Иметь опыт в сопровождении...",
+        "name": "Backend Python разработчик",
+        "city": "Астана",
+        "employer": "Частная компания HalalGuide Ltd.",
+        "salary_from": 700000,
+        "salary_to": 1000000,
+        "description": "Опыт работы Python Backend разработчиком от 3 лет. Отличное знание фреймворков Django. Опыт работы с реляционными и нереляционными базами данных. ",
         "experience": "От 3 до 6 лет",
-        "link": "https://hh.ru/vacancy/80952717"
+        "link": "https://hh.ru/vacancy/106235207"
     },
     {
-        "name": "Аналитик данных",
-        "city": "Казань",
-        "employer": "АК БАРС ДОМ",
-        "salary_from": 0,
-        "salary_to": 80000,
-        "description": "Умение работать с BI-системами (Power BI). Преимуществом являются знания языков программирования Python, Dax. Знание статистики и моделей прогнозирования. ",
-        "experience": "Нет опыта",
-        "link": "https://hh.ru/vacancy/106191819"
+        "name": "Python разработчик (Junior+)",
+        "city": "Москва",
+        "employer": "Leads",
+        "salary_from": 70000,
+        "salary_to": 100000,
+        "description": "Опыт работы backend/fullstack Python разработчиком от 1 года. Знание. - ООП. - Python 3.7+. - SQL (PostgreSQL). - Linux (на уровне...",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/105043389"
+    },
+    {
+        "name": "Программист-разработчик Python",
+        "city": "Москва",
+        "employer": "Гео Техно Сот",
+        "salary": "Зарплата не указана",
+        "description": "Высшее образование (желательно: Математика, Фундаментальные математика и механика, Прикладная математика). Опыт коммерческой разработки на Python от 2-х лет. ",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/105454763"
+    },
+    {
+        "name": "Администратор сайта",
+        "city": "Москва",
+        "employer": "Гоудрон",
+        "salary_from": 150000,
+        "salary_to": 0,
+        "description": "Владеете Adobe Photoshop, Adobe Illustrator, Git, phpMyAdmin, Docker, Ubuntu Server, Jetbrains Phpstorm. Уверенный пользователь метрики и сопутствующих систем отслеживания. ",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/106045032"
     },
     {
         "name": "Программист Python (внутренние проекты) / Python Developer (internal projects)",
@@ -685,70 +629,41 @@
         "link": "https://hh.ru/vacancy/106040099"
     },
     {
-        "name": "Программист Python",
+        "name": "Middle Frontend Software Engineer (Брест)",
+        "city": "Брест",
+        "employer": "ВебДэд",
+        "salary": "Зарплата не указана",
+        "description": "Опыт работы с инструментами сборки и автоматизации, такими как Webpack или Gulp. Знание других языков программирования, таких как NodeJS, Python...",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/106267364"
+    },
+    {
+        "name": "Python developer",
+        "city": "Москва",
+        "employer": "Kokoc Group",
+        "salary": "Зарплата не указана",
+        "description": "Будет плюсом: Опыт работы с многопоточностью и многопроцессорностью в Python. Опыт работы с Clickhouse или другими подобными нереляционными базами данных. ",
+        "experience": "От 3 до 6 лет",
+        "link": "https://hh.ru/vacancy/105782745"
+    },
+    {
+        "name": "Аналитик данных",
         "city": "Казань",
-        "employer": "ZARMA",
-        "salary_from": 70000,
+        "employer": "АК БАРС ДОМ",
+        "salary_from": 0,
         "salary_to": 80000,
-        "description": "Опыт работы с Python не менее 2 лет. Уверенные знания работы с API и опыт интеграции различных систем. ",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/104670176"
-    },
-    {
-        "name": "Python-разработчик",
-        "city": "Москва",
-        "employer": "Лига Цифровой Экономики",
-        "salary": "Зарплата не указана",
-        "description": "Опыт коммерческой разработки по реализации интеграций на Python. Опыт работы с базами данных, такими как PostgreSQL. Знание Kafka. ",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/106221487"
-    },
-    {
-        "name": "Junior Data Analyst / Аналитик данных",
-        "city": "Минск",
-        "employer": "ДЕВХЭД",
-        "salary": "Зарплата не указана",
-        "description": "Higher education (Tech, Math, Physics) / graduate student of the university. Basic knowledge of Python, MySQL, Excel. Analytical mindset, diligence, good...",
+        "description": "Умение работать с BI-системами (Power BI). Преимуществом являются знания языков программирования Python, Dax. Знание статистики и моделей прогнозирования. ",
         "experience": "Нет опыта",
-        "link": "https://hh.ru/vacancy/106020226"
+        "link": "https://hh.ru/vacancy/106191819"
     },
     {
-        "name": "Аналитик данных Junior",
-        "city": "Екатеринбург",
-        "employer": "Artsofte",
-        "salary": "Зарплата не указана",
-        "description": "Знание Python, SQL и Excel, BI-систем. Способность работать без наставника, самостоятельно разбираться, доходить до сути. Уметь и не бояться...",
-        "experience": "Нет опыта",
-        "link": "https://hh.ru/vacancy/105905376"
-    },
-    {
-        "name": "Junior Backend разработчик (Golang)",
+        "name": "Прикладной администратор в Систему быстрых платежей",
         "city": "Москва",
-        "employer": "Tevian (ООО Технологии видеоанализа)",
-        "salary_from": 110000,
-        "salary_to": 200000,
-        "description": "Знание Golang 1.20+ (junior). Базовые знания Python 3.8+ (интеграционные тесты, скрипты). Опыт написания клиентов и серверов...",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/105394247"
-    },
-    {
-        "name": "Backend developer (Python, Elma)",
-        "city": "Москва",
-        "employer": "KAMAZ DIGITAL",
+        "employer": "Национальная система платежных карт",
         "salary": "Зарплата не указана",
-        "description": "Опыт разработки сервисов на Python от 2 лет. Опыт разработки на платформе ELMA 365.",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/106044852"
-    },
-    {
-        "name": "C# разработчик (junior)",
-        "city": "Тула",
-        "employer": "PVS-Studio",
-        "salary_from": 30000,
-        "salary_to": 60000,
-        "description": "Основные языки: C++ 20, C# 12, Java 11. Вспомогательные: Python 3, JS. Фреймворки: .NET 8, .NET Framework, JDK11. ",
-        "experience": "Нет опыта",
-        "link": "https://hh.ru/vacancy/106041214"
+        "description": "Обладать отличными знаниями по Linux, Docker, Ansible, Python и стеку мониторинга. Хорошо знать SQL и HTTP. Иметь опыт в сопровождении...",
+        "experience": "От 3 до 6 лет",
+        "link": "https://hh.ru/vacancy/80952717"
     },
     {
         "name": "Intern Python Developer / Стажер Python-разработчик",
@@ -761,6 +676,25 @@
         "link": "https://hh.ru/vacancy/105651593"
     },
     {
+        "name": "Аналитик данных Junior",
+        "city": "Екатеринбург",
+        "employer": "Artsofte",
+        "salary": "Зарплата не указана",
+        "description": "Знание Python, SQL и Excel, BI-систем. Способность работать без наставника, самостоятельно разбираться, доходить до сути. Уметь и не бояться...",
+        "experience": "Нет опыта",
+        "link": "https://hh.ru/vacancy/105905376"
+    },
+    {
+        "name": "C# разработчик (junior)",
+        "city": "Тула",
+        "employer": "PVS-Studio",
+        "salary_from": 30000,
+        "salary_to": 60000,
+        "description": "Основные языки: C++ 20, C# 12, Java 11. Вспомогательные: Python 3, JS. Фреймворки: .NET 8, .NET Framework, JDK11. ",
+        "experience": "Нет опыта",
+        "link": "https://hh.ru/vacancy/106041214"
+    },
+    {
         "name": "Разработчик средств автоматизации Python/Django",
         "city": "Москва",
         "employer": "Код Безопасности",
@@ -770,13 +704,59 @@
         "link": "https://hh.ru/vacancy/106172260"
     },
     {
-        "name": "Backend-разработчик python",
-        "city": "Тюмень",
-        "employer": "ЭНКО ГРУПП",
+        "name": "Backend developer (Python, Elma)",
+        "city": "Москва",
+        "employer": "KAMAZ DIGITAL",
         "salary": "Зарплата не указана",
-        "description": "Понимание, что такое асинхронное программирование, как оно устроено в языке Python и можешь работать с микросервисной архитектурой. Умение пользоваться системой...",
+        "description": "Опыт разработки сервисов на Python от 2 лет. Опыт разработки на платформе ELMA 365.",
         "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/106215345"
+        "link": "https://hh.ru/vacancy/106044852"
+    },
+    {
+        "name": "Junior Data Analyst / Аналитик данных",
+        "city": "Минск",
+        "employer": "ДЕВХЭД",
+        "salary": "Зарплата не указана",
+        "description": "Higher education (Tech, Math, Physics) / graduate student of the university. Basic knowledge of Python, MySQL, Excel. Analytical mindset, diligence, good...",
+        "experience": "Нет опыта",
+        "link": "https://hh.ru/vacancy/106020226"
+    },
+    {
+        "name": "Python-разработчик",
+        "city": "Москва",
+        "employer": "Лига Цифровой Экономики",
+        "salary": "Зарплата не указана",
+        "description": "Опыт коммерческой разработки по реализации интеграций на Python. Опыт работы с базами данных, такими как PostgreSQL. Знание Kafka. ",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/106221487"
+    },
+    {
+        "name": "Junior Backend разработчик (Golang)",
+        "city": "Москва",
+        "employer": "Tevian (ООО Технологии видеоанализа)",
+        "salary_from": 110000,
+        "salary_to": 200000,
+        "description": "Знание Golang 1.20+ (junior). Базовые знания Python 3.8+ (интеграционные тесты, скрипты). Опыт написания клиентов и серверов...",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/105394247"
+    },
+    {
+        "name": "Data Scientist [Junior]",
+        "city": "Москва",
+        "employer": "Диплей",
+        "salary": "Зарплата не указана",
+        "description": "...готовность программировать на R и python и развиваться в этом. Знание различных видов визуализаций в python или R, любовь к...",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/106100728"
+    },
+    {
+        "name": "Стажер-разработчик Java",
+        "city": "Рязань",
+        "employer": "ITFB Group",
+        "salary": "Зарплата не указана",
+        "description": "Базовые знания одного из языков программирования Python/Java/С++. * Знание типов данных. * Представление как устроены реляционные СУБД и знать основы...",
+        "experience": "Нет опыта",
+        "link": "https://hh.ru/vacancy/105739093"
     },
     {
         "name": "Backend-разработчик",
@@ -789,24 +769,14 @@
         "link": "https://hh.ru/vacancy/106136111"
     },
     {
-        "name": "QA engineer (ручное тестирование)",
-        "city": "Москва",
-        "employer": "ГИРУС",
-        "salary_from": 120000,
-        "salary_to": 160000,
-        "description": "Опыт работы в QA от 2 лет. Глубокое знание методик тестирования. Понимание процесса разработки ПО и методов обеспечения его качества. ",
-        "experience": "От 3 до 6 лет",
-        "link": "https://hh.ru/vacancy/105358654"
-    },
-    {
-        "name": "Программист-наставник в школу программирования для детей",
-        "city": "Красногорск (Московская область)",
-        "employer": "KiberOne (ИП Докучаева Юлия Викторовна)",
-        "salary_from": 180000,
-        "salary_to": 200000,
-        "description": "Истра, Дедовск, Снегири. Стаж работы от 1 года. - Транслирование программ КиберШколы по методическим материалам и передача практического опыта для детей...",
+        "name": "Middle Back-end разработчик (Python, PostgreSQL, FastAPI)",
+        "city": "Ханты-Мансийск",
+        "employer": "АУ Югорский НИИ информационных технологий",
+        "salary_from": 80000,
+        "salary_to": 0,
+        "description": "Опыт работы с другими современными фреймворками Python будет преимуществом. Глубокое понимание Python и его экосистемы. Опыт работы с PostgreSQL и...",
         "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/106231501"
+        "link": "https://hh.ru/vacancy/106275726"
     },
     {
         "name": "Data Analyst / Аналитик данных",
@@ -818,15 +788,6 @@
         "link": "https://hh.ru/vacancy/105971015"
     },
     {
-        "name": "Data Scientist [Junior]",
-        "city": "Москва",
-        "employer": "Диплей",
-        "salary": "Зарплата не указана",
-        "description": "...готовность программировать на R и python и развиваться в этом. Знание различных видов визуализаций в python или R, любовь к...",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/106100728"
-    },
-    {
         "name": "Junior Python-программист",
         "city": "Москва",
         "employer": "СОГАЗ",
@@ -834,24 +795,6 @@
         "description": "Уверенное знание Python. Уверенное знание PostgreSQL и умение писать оптимизированные запросы. Опыт работы с Git. Опыт работы с Pandas. ",
         "experience": "Нет опыта",
         "link": "https://hh.ru/vacancy/105997458"
-    },
-    {
-        "name": "Аналитик ML",
-        "city": "Москва",
-        "employer": "МТС Финтех",
-        "salary": "Зарплата не указана",
-        "description": "Опыт построения отчетности. Опыт разработки предиктивных моделей с помощью Python, библиотек sklearn, LightGBM, XGBoost. Знание предметной области экономико-статистического моделирования. ",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/106219397"
-    },
-    {
-        "name": "Аналитик данных",
-        "city": "Алматы",
-        "employer": "Публичная Компания «Freedom Finance Global PLC»",
-        "salary": "Зарплата не указана",
-        "description": "...на Python. Знание концепции? объектно-ориентированного программирования (ООП), ORM моделирование, Airflow. Требуется владение библиотеками для анализа данных на Python, включая...",
-        "experience": "От 3 до 6 лет",
-        "link": "https://hh.ru/vacancy/105185748"
     },
     {
         "name": "SQL-аналитик",
@@ -863,6 +806,26 @@
         "link": "https://hh.ru/vacancy/103692183"
     },
     {
+        "name": "QA engineer (ручное тестирование)",
+        "city": "Москва",
+        "employer": "ГИРУС",
+        "salary_from": 120000,
+        "salary_to": 160000,
+        "description": "Опыт работы в QA от 2 лет. Глубокое знание методик тестирования. Понимание процесса разработки ПО и методов обеспечения его качества. ",
+        "experience": "От 3 до 6 лет",
+        "link": "https://hh.ru/vacancy/105358654"
+    },
+    {
+        "name": "Python developer",
+        "city": "Москва",
+        "employer": "АВ Софт",
+        "salary_from": 120000,
+        "salary_to": 0,
+        "description": "Знание Python. Понимание ООП. Знание CI/CD. Умение работать с чужим кодом. Понимание работы Python и умение использовать различные типы...",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/105925196"
+    },
+    {
         "name": "Data scientist",
         "city": "Москва",
         "employer": "МегаФон",
@@ -870,15 +833,6 @@
         "description": "Опыт работы в области Data Science от 2х лет. Уверенные знания алгоритмов машинного обучения, принципов их работы, ключевых особенностей...",
         "experience": "От 1 года до 3 лет",
         "link": "https://hh.ru/vacancy/106054464"
-    },
-    {
-        "name": "Стажер-разработчик Java",
-        "city": "Рязань",
-        "employer": "ITFB Group",
-        "salary": "Зарплата не указана",
-        "description": "Базовые знания одного из языков программирования Python/Java/С++. * Знание типов данных. * Представление как устроены реляционные СУБД и знать основы...",
-        "experience": "Нет опыта",
-        "link": "https://hh.ru/vacancy/105739093"
     },
     {
         "name": "Разработчик-алгоритмист (JavaScript/TypeScript)",
@@ -890,13 +844,41 @@
         "link": "https://hh.ru/vacancy/95648136"
     },
     {
-        "name": "Backend-разработчик python",
-        "city": "Ханты-Мансийск",
-        "employer": "ЭНКО ГРУПП",
+        "name": "Frontend-разработчик/инженер-программист",
+        "city": "Оренбург",
+        "employer": "Ефимов Михаил Владимирович",
+        "salary_from": 80000,
+        "salary_to": 0,
+        "description": "Знание основ разработки WEB-приложений. Знание основ разработки мобильных приложений. Рассматриваются кандидаты, которые проживают в городе Оренбург, либо готовы к...",
+        "experience": "Нет опыта",
+        "link": "https://hh.ru/vacancy/106197714"
+    },
+    {
+        "name": "Python-разработчик",
+        "city": "Минск",
+        "employer": "Софтомнител",
         "salary": "Зарплата не указана",
-        "description": "Понимание, что такое асинхронное программирование, как оно устроено в языке Python и можешь работать с микросервисной архитектурой. Умение пользоваться системой...",
+        "description": "Глубокие знания в следующем технологическом стеке: Понимание асинхронного программирования - asyncio, multiprocessing, threading, работа с orm(django, sqlalchemy, FastApi). ",
         "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/106215346"
+        "link": "https://hh.ru/vacancy/105986796"
+    },
+    {
+        "name": "Data Scientist",
+        "city": "Москва",
+        "employer": "Tele2",
+        "salary": "Зарплата не указана",
+        "description": "Глубокое понимание алгоритмов машинного обучения и опыт их применения в работе. Знание математической статистики. Python (pandas, sklearn, xgboost, lightgbm, matplotlib...",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/106190931"
+    },
+    {
+        "name": "Аналитик данных",
+        "city": "Алматы",
+        "employer": "Публичная Компания «Freedom Finance Global PLC»",
+        "salary": "Зарплата не указана",
+        "description": "...на Python. Знание концепции? объектно-ориентированного программирования (ООП), ORM моделирование, Airflow. Требуется владение библиотеками для анализа данных на Python, включая...",
+        "experience": "От 3 до 6 лет",
+        "link": "https://hh.ru/vacancy/105185748"
     },
     {
         "name": "Junior Разработчик-алгоритмист (JavaScript/TypeScript)",
@@ -908,13 +890,40 @@
         "link": "https://hh.ru/vacancy/105312260"
     },
     {
-        "name": "Java-разработчик",
+        "name": "Python-разработчик",
         "city": "Москва",
-        "employer": "Ростелеком Информационные Технологии",
+        "employer": "билайн",
         "salary": "Зарплата не указана",
-        "description": "Опыт разработки на Java от 2-х лет. Опыт работы с Java core 6 и выше. Опыт работы со Spring. ",
+        "description": "Опыт работы c PostgreSQL, Redis, Clickhouse, SQLalchemy. Умение обрабатывать данные в python (pandas, numpy). Умение работать с Git (github, gitlab...",
         "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/105620409"
+        "link": "https://hh.ru/vacancy/106199455"
+    },
+    {
+        "name": "Backend-разработчик python",
+        "city": "Тюмень",
+        "employer": "ЭНКО ГРУПП",
+        "salary": "Зарплата не указана",
+        "description": "Понимание, что такое асинхронное программирование, как оно устроено в языке Python и можешь работать с микросервисной архитектурой. Умение пользоваться системой...",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/106215345"
+    },
+    {
+        "name": "Junior Backend Python разработчик",
+        "city": "Владивосток",
+        "employer": "Аптека25.РФ",
+        "salary": "Зарплата не указана",
+        "description": "Уверенное владение Python и сопутствующих инструментов (pytest, ruff, poetry). Опыт работы с Django, будет плюсом FastAPI. Умение работать с git. ",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/105986565"
+    },
+    {
+        "name": "Middle Backend Python программист",
+        "city": "Москва",
+        "employer": "AVE Technologies",
+        "salary": "Зарплата не указана",
+        "description": "Опыт коммерческой разработки с использованием Python от 1,5 лет кандидатов с меньшим опытом пока не готовы рассматривать. ",
+        "experience": "От 1 года до 3 лет",
+        "link": "https://hh.ru/vacancy/106273436"
     },
     {
         "name": "Python Backend-разработчик (Middle/Senior)",
@@ -925,15 +934,5 @@
         "description": "Коммерческий опыт работы на Python3 в продуктовых командах от 2-х лет. Знание Python 3.8 и выше. ",
         "experience": "От 1 года до 3 лет",
         "link": "https://hh.ru/vacancy/101306846"
-    },
-    {
-        "name": "Python developer",
-        "city": "Москва",
-        "employer": "АВ Софт",
-        "salary_from": 120000,
-        "salary_to": 0,
-        "description": "Знание Python. Понимание ООП. Знание CI/CD. Умение работать с чужим кодом. Понимание работы Python и умение использовать различные типы...",
-        "experience": "От 1 года до 3 лет",
-        "link": "https://hh.ru/vacancy/105925196"
     }
 ]

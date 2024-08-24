@@ -14,9 +14,11 @@ def main():
     hh_vacancies = hh_api.get_vacancies(keyword=answer, page=answer_page)
     vacancies_list = Vacancy.cast_to_object_list(hh_vacancies)
 
-    json_saver = JSONSaver("vacancies")
+    print("Введите имя файла на английском для добавления в него вакансий: ")
+    f_name = input()
+    json_saver = JSONSaver(filename=f_name)
     json_saver.add_vacancies(vacancies_list)
-    print('Список всех вакансий добавлен в файл "vacancies"')
+    print(f'Cписок всех вакансий добавлен в файл "{f_name}"')
 
     # Сортировка Топ N вакансий по зарплате
     top_n = int(input("Введите количество вакансий для вывода в топ с наибольшей ЗП: "))
@@ -39,6 +41,6 @@ def main():
 
     return result_vacancies
 
-# print(os.listdir())
+
 if __name__ == "__main__":
     main()
