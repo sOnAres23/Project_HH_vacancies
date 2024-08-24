@@ -1,10 +1,8 @@
 import json
 import logging
-import re
 
-from src.base_hh_work import BaseWorkWithFile
-from src.hh_api import HeadHunterAPI
-from src.hh_work_with_vacancies import Vacancy
+
+from abc import ABC, abstractmethod
 
 # """Создаем логгер для логирования методов и записываем логи в директорию logs"""
 # logging.basicConfig(level=logging.DEBUG,
@@ -12,6 +10,24 @@ from src.hh_work_with_vacancies import Vacancy
 #                     filename='../logs/hh_work_with_file.log',  # Запись логов в файл
 #                     filemode='w')  # Перезапись файла при каждом запуске
 logger = logging.getLogger("hh_work_with_file.py")
+
+
+class BaseWorkWithFile(ABC):
+    """Абстрактный класс, для класса работы с файлом JSON"""
+    @abstractmethod
+    def add_vacancies(self, file):
+        """Абстрактный метод добавление вакансий в файл"""
+        pass
+
+    @abstractmethod
+    def print_vacancies(self):
+        """Абстрактный метод для получения данных о вакансиях из файла"""
+        pass
+
+    @abstractmethod
+    def del_vacancies(self):
+        """Абстрактный метод удаления информации о вакансиях из файла"""
+        pass
 
 
 class JSONSaver(BaseWorkWithFile):
@@ -62,23 +78,9 @@ class JSONSaver(BaseWorkWithFile):
         """Метод, который получает данные из файла JSON который в нём есть"""
         with open(f"../data/{self._filename}.json", "r", encoding="cp1251", errors='replace') as f:
             data = json.load(f)
-            # text = '<highlighttext>Python</highlighttext>'
-            # for i in data:
-            #     if text in i["description"]:
-            #         cleaned_text = re.sub(r'<.*?>', '', text)
-            #         i["description"].replace(text, cleaned_text)
             print(data)
 
     def del_vacancies(self) -> None:
         """Метод, который удаляет содержимое файла JSON"""
         with open(f"../data/{self._filename}.json") as f:
             pass
-
-
-hh_api = HeadHunterAPI()
-hh_vacancies = hh_api.get_vacancies(keyword="Python", page=1)
-vacancies_list = Vacancy.cast_to_object_list(hh_vacancies)
-
-json_saver = JSONSaver("vacancies")
-# json_saver.add_vacancies(vacancies_list)
-json_saver.print_vacancies()

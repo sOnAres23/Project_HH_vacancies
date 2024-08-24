@@ -1,3 +1,4 @@
+import re
 from typing import Any
 
 
@@ -61,7 +62,7 @@ class Vacancy:
             else:
                 salary_to = 0
             if vacancy.get('snippet').get('requirement'):
-                description = vacancy["snippet"]["requirement"]
+                description = re.sub(r'<.*?>', '', vacancy["snippet"]["requirement"])
             else:
                 description = "Не указано"
             experience = vacancy["experience"]["name"]

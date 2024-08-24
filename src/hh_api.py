@@ -3,7 +3,8 @@ import logging
 
 import requests
 
-from src.base_hh_api import BaseHeadHunterAPI
+from abc import ABC, abstractmethod
+
 
 # """Создаем логгер для логирования методов и записываем логи в директорию logs"""
 # logging.basicConfig(level=logging.DEBUG,
@@ -11,6 +12,15 @@ from src.base_hh_api import BaseHeadHunterAPI
 #                     filename='../logs/hh_api.log',  # Запись логов в файл
 #                     filemode='w')  # Перезапись файла при каждом запуске
 logger = logging.getLogger("hh_api.py")
+
+
+class BaseHeadHunterAPI(ABC):
+    """Абстрактный класс, для класса получения API с hh.ru"""
+    pass
+
+    @abstractmethod
+    def get_vacancies(self, keyword):
+        pass
 
 
 class HeadHunterAPI(BaseHeadHunterAPI):
