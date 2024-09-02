@@ -27,12 +27,13 @@ def sorting_of_salary(vacancies: list[object, ...], salary_from: int, salary_to:
 
 def result_for_user(list_vacancies: list):
     """Функция, которая выводит итоговый список вакансий для пользователя"""
-    if list_vacancies is not None:
+    if len(list_vacancies) != 0:
         for num, vac in enumerate(list_vacancies, 1):
             if vac.salary_from >= vac.salary_to:
                 vacancy_1 = (f"Вакансия №: {num}\n"
                              f"Название вакансии: {vac.name}\nГород вакансии: {vac.city}\n"
                              f"Работодатель: {vac.employer}\nЗарплата: от {vac.salary_from}\n"
+                             f"Валюта: {vac.currency}\n"
                              f"Описание: {vac.description}\nНужный опыт: {vac.experience}\n"
                              f"Ссылка на вакансию: {vac.link}\n")
                 print(vacancy_1)
@@ -40,6 +41,7 @@ def result_for_user(list_vacancies: list):
                 vacancy_2 = (f"Вакансия №: {num}\n"
                              f"Название вакансии: {vac.name}\nГород вакансии: {vac.city}\n"
                              f"Работодатель: {vac.employer}\nЗарплата: от {vac.salary_from} до {vac.salary_to}\n"
+                             f"Валюта: {vac.currency}\n"
                              f"Описание: {vac.description}\nНужный опыт: {vac.experience}\n"
                              f"Ссылка на вакансию: {vac.link}\n")
                 print(vacancy_2)

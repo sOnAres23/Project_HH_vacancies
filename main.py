@@ -6,9 +6,9 @@ from src.utils import top_n_vacancies, filter_by_word, sorting_of_salary, result
 
 def main():
     """Главная функция для работы с пользователем"""
-    print("Добро пожаловать на сервис по поиску вакансий с сайта hh.ru!\n")
-    answer = input("Введите запрос по слову или вакансии, которое интересует: ")
-    answer_page = int(input("Введите страницу № для вывода 100 вакансий в файл: "))
+    print("\nДобро пожаловать на сервис по поиску вакансий с сайта hh.ru!\n")
+    answer = input("Введите запрос по слову или Вакансии, которое вас интересует: ")
+    answer_page = int(input("Введите № страницы сайта для получения 100 вакансий: "))
 
     hh_api = HeadHunterAPI()
     hh_vacancies = hh_api.get_vacancies(keyword=answer, page=answer_page)
@@ -18,7 +18,7 @@ def main():
     f_name = input()
     json_saver = JSONSaver(filename=f_name)
     json_saver.add_vacancies(vacancies_list)
-    print(f'Cписок всех вакансий добавлен в файл "{f_name}"')
+    print(f'Cписок всех вакансий добавлен в файл "{f_name}"\n')
 
     # Сортировка Топ N вакансий по зарплате
     top_n = int(input("Введите количество вакансий для вывода в топ с наибольшей ЗП: "))

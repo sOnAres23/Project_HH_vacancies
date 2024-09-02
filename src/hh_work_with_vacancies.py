@@ -9,17 +9,18 @@ class Vacancy:
     Добавляет отсортированные вакансии в новый список, а также сравнивает
         вакансии между собой по зарплате.
     """
-    __slots__ = ("name", "city", "employer", "salary_from", "salary_to", "description", "experience", "link")
+    __slots__ = ("name", "city", "employer", "salary_from", "salary_to", "currency", "description", "experience", "link")
     name: str
     city: str
     employer: str
     salary_from: int
     salary_to: int
+    currency: str
     description: str
     experience: str
     link: str
 
-    def __init__(self, name, city, employer, salary_from, salary_to, description, experience, link):
+    def __init__(self, name, city, employer, salary_from, salary_to, currency, description, experience, link):
         self.name = name
         self.city = city
         self.employer = employer
@@ -31,6 +32,10 @@ class Vacancy:
             self.salary_to = salary_to
         else:
             self.salary_to = 0
+        if isinstance(currency, str):
+            self.currency = currency
+        else:
+            self.currency = 0
         self.description = description
         self.experience = experience
         self.link = link
@@ -61,6 +66,12 @@ class Vacancy:
                 salary_to = vacancy.get('salary').get('to')
             else:
                 salary_to = 0
+
+            if vacancy.get('salary'):
+                currency = vacancy.get('salary').get('currency')
+            else:
+                currency = 0
+
             if vacancy.get('snippet').get('requirement'):
                 description = re.sub(r'<.*?>', '', vacancy["snippet"]["requirement"])
             else:
@@ -68,6 +79,6 @@ class Vacancy:
             experience = vacancy["experience"]["name"]
             link = vacancy["alternate_url"]
 
-            class_list_vacancies.append(cls(name, city, employer, salary_from, salary_to, description, experience, link))
+            class_list_vacancies.append(cls(name, city, employer, salary_from, salary_to, currency, description, experience, link))
 
         return class_list_vacancies

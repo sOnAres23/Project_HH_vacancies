@@ -45,20 +45,14 @@ class JSONSaver(BaseWorkWithFile):
         list_vacancies = []
         logger.info("Перебираем и сортируем вакансии по нужным атрибутам...")
 
-        with open(fr"D:\PyCharm\Projects\Project_HH_vacancies\data\{self._filename}.json", "r+",
-                  encoding="cp1251", errors='replace') as file:
-            json.load(file)
-
-        with open(fr"D:\PyCharm\Projects\Project_HH_vacancies\data\{self._filename}.json", "r+", encoding="cp1251", errors='replace') as file:
-            json_file_vacancies = json.load(file)
-
         for vac in hh_list:
-            if vac.salary_from == 0 and vac.salary_to == 0:
+            if vac.salary_from == 0 and vac.salary_to == 0 and vac.currency == 0:
                 vacancies = {
                     "name": vac.name,
                     "city": vac.city,
                     "employer": vac.employer,
                     "salary": "Зарплата не указана",
+                    "currency": "Валюта не указана",
                     "description": vac.description,
                     "experience": vac.experience,
                     "link": vac.link
@@ -71,17 +65,18 @@ class JSONSaver(BaseWorkWithFile):
                     "employer": vac.employer,
                     "salary_from": vac.salary_from,
                     "salary_to": vac.salary_to,
+                    "currency": vac.currency,
                     "description": vac.description,
                     "experience": vac.experience,
                     "link": vac.link
                 }
 
-            if vacancies not in json_file_vacancies:
-                json_file_vacancies.append(vacancies)
+            # if vacancies not in json_file_vacancies:
+            list_vacancies.append(vacancies)
 
-        with open(fr"D:\PyCharm\Projects\Project_HH_vacancies\data\{self._filename}.json", "w",
+        with open(fr"D:\PyCharm\Projects\Project_HH_vacancies\data\{self._filename}.json", "w+",
                   encoding="cp1251", errors='replace') as f:
-            json.dump(json_file_vacancies, f, ensure_ascii=False, indent=4)
+            json.dump(list_vacancies, f, ensure_ascii=False, indent=4)
             logger.info("Вакансии в файл успешно добавлены")
 
     def print_vacancies(self) -> None:
